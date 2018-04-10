@@ -1,0 +1,207 @@
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media (min-width: 320px) and (max-width: 575px) {
+    /*    nav part*/
+    .navbar-nav .nav-link {
+        padding: 3px 0px;
+        text-align: center;
+        background-color: rgba(52, 28, 28, 0.65);
+    }
+
+    /*    banner part*/
+    h1 {
+        font-size: 50px;
+    }
+
+    #bannerPart {
+        padding: 28px 0 42px;
+    }
+
+    #bannerPart .bannerContent p {
+        padding: 25px 0 27px;
+        font-size: 15px;
+    }
+
+    #bannerPart .bannerContent a i {
+        margin-top: 28px;
+    }
+
+    /*    design part*/
+    #DesingPart {
+        padding: 40px 0px 0px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    #DesingPart .commonHeading p {
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    .designContent {
+        padding: 36px 0px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    .designContent p {
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .designContent .designContentbody {
+        margin-bottom: 30px;
+    }
+
+    /*    gallery part*/
+    #galleryPart {
+        padding: 45px 0px;
+    }
+
+    #galleryPart h2 {
+        font-size: 17px;
+    }
+    #galleryPart p {
+        font-size: 15px;
+    }
+
+    .galleryContent {
+        padding: 35px 0px 0px;
+    }
+    .galleryContent .galleryImg {
+        width: 290px;
+        height: 190px;
+        margin: 15px auto;
+    }
+
+
+    /*    contact us form*/
+    #contactUs form textarea {
+        height: 87px;
+    }
+    #contactUs p {
+        font-size: 14px;
+    }
+    #contactUs {
+        padding: 48px 0px;
+        font-size: 12px;
+    }
+    #contactUs form .check input {
+        width: 10px;
+        margin-top: 4px;
+        margin-right: 6px;
+        transform: scale(1);
+    }
+
+    #contactUs form button {
+        padding: 5px 22px;
+        font-size: 12px;
+    }
+    #contactUs form label {
+        font-size: 12px;
+    }
+
+    /*    footer*/
+    #Footer p {
+        font-size: 12px;
+    }
+    #Footer ul li a {
+        height: 22px;
+        width: 22px;
+        line-height: 22px;
+    }
+    #Footer ul li a i {
+        font-size: 12px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 575px) and (max-width: 768px) {
+    /*    banner part*/
+    #bannerPart {
+        padding: 27px 0 40px;
+    }
+    #bannerPart h1 {
+        font-size: 70px;
+    }
+    #bannerPart .bannerContent p {
+        padding: 39px 0 60px;
+        font-size: 18px;
+    }
+
+    #bannerPart .bannerContent a i {
+        margin-top: 49px;
+    }
+
+    /*    design part*/
+    #DesingPart {
+        padding: 50px 0px 0px;
+    }
+
+    #DesingPart .commonHeading h2 {
+        padding-bottom: 25px;
+        font-size: 35px;
+    }
+    #DesingPart .commonHeading p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .designContent {
+        padding: 45px 0px;
+    }
+    #DesingPart .designContentbody {
+        margin-bottom: 30px;
+    }
+    .designContent h3 {
+        font-size: 23px;
+    }
+    .designContent p {
+        font-size: 13px;
+    }
+
+    /*    gallery part*/
+    #galleryPart h2 {
+        font-size: 25px;
+    }
+    #galleryPart p {
+        font-size: 18px;
+    }
+
+    .galleryContent {
+        padding: 60px 0px 0px;
+    }
+
+    .galleryContent .galleryImg {
+        width: 360px;
+        height: 260px;
+        margin: 15px auto;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 769px) and (max-width: 991px) {
+    #bannerPart {
+        padding: 55px 0 60px;
+    }
+    #bannerPart .bannerContent a i {
+        margin-top: 95px;
+    }
+    .designContentbody {
+        margin-bottom: 35px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 991px) and (max-width: 1199px) {
+    .designContentbody {
+        margin-bottom: 40px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}

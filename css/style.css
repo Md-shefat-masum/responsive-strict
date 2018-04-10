@@ -1,0 +1,361 @@
+/*font sizes start*/
+
+p {
+    font-size: 18px;
+    line-height: 32px;
+}
+
+h1 {
+    font-size: 120px;
+    font-family: 'lato', sans-serif;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 40px;
+    color: #2d3950;
+    font-family: 'lato', sans-serif;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 44px;
+    color: #2d3950;
+    font-weight: 700;
+    font-family: 'lato', sans-serif;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+h5 {
+    font-size: 22px;
+}
+
+h6 {
+    font-size: 18px;
+}
+
+body {
+    font-family: 'lato', sans-serif;
+}
+
+/*font sizes end*/
+
+/*nav part start*/
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+    color: #15a4fa;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #15a4fa;
+}
+
+/*nav part end*/
+
+/*banner part*/
+
+#bannerPart {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    padding: 100px 0 60px;
+}
+
+#bannerPart .bannerContent h1 {
+    text-transform: uppercase;
+    position: relative;
+}
+
+#bannerPart .bannerContent h1:before {
+    position: absolute;
+    height: 2px;
+    width: 150%;
+    bottom: 0;
+    left: -50%;
+    transform: translateX(20%);
+    content: '';
+    background-color: #15a4fa;
+}
+
+#bannerPart .bannerContent p {
+
+    padding: 45px 0 60px;
+}
+
+#bannerPart .bannerContent p span {
+    color: #15a4fa;
+    text-transform: uppercase;
+}
+
+#bannerPart .bannerContent .callButton {
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 10px 20px;
+    display: inline-block;
+    text-transform: capitalize;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    transition: all linear .3s;
+}
+
+#bannerPart .bannerContent .callButton:hover {
+    color: #15a4fa;
+    border: 1px solid #15a4fa;
+}
+
+#bannerPart .bannerContent a i {
+    color: white;
+    padding: 10px 20px;
+    display: block;
+    text-transform: capitalize;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    transition: all linear .3s;
+    border: 1px solid transparent;
+    font-size: 30px;
+    margin-top: 150px;
+}
+
+#bannerPart .bannerContent a:hover i {
+    color: #15a4fa;
+}
+
+/*banner end*/
+
+/*desing part start*/
+
+#DesingPart {
+    padding: 80px 0px 0px;
+}
+
+#DesingPart .commonHeading h2 {
+    padding-bottom: 30px;
+}
+
+#DesingPart .commonHeading p {
+    font-size: 18px;
+    color: 999999;
+}
+
+.designContent {
+    padding: 80px 0px
+}
+
+.designContent .designIcon {
+    width: 100px;
+    height: 100px;
+    background: #15a4fa;
+    position: relative;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    text-align: center;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.designContent .designIcon:after {
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 100px;
+    left: 0;
+    top: 0;
+    background: #2196dd;
+    z-index: -99;
+}
+
+.designContent .designIcon span {
+    color: white;
+    font-size: 50px;
+    line-height: 100px;
+}
+
+.designContent h3 {
+    padding: 20px 15px 5px;
+}
+
+.designContent p {
+    color: #999999;
+    font-size: 15px;
+    padding: 0px 20px;
+    line-height: 22px;
+}
+
+/*desing part end*/
+
+/*gallery part start*/
+
+#galleryPart {
+    background: #f5f7f7;
+    padding: 80px 0px;
+}
+
+.galleryContent {
+    padding: 80px 0px 0px;
+}
+
+.galleryImg {
+    overflow: hidden;
+    border-radius: 3px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.imgOverLay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: -360px;
+    top: 0;
+    background: rgba(34, 159, 239, 0.78);
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    transition: all linear .5s;
+}
+
+.imgOverLay a {
+    line-height: 260px;
+    margin-left: 10px;
+}
+
+.imgOverLay a i {
+    color: white;
+    font-size: 25px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.galleryImg:hover .imgOverLay {
+    left: 0;
+    visibility: visible;
+    opacity: 1;
+}
+
+/*gallery part end*/
+
+/*Stau with us start*/
+
+#contactUs {
+    background-image: url(../images/footerbg/Strict2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 80px 0px;
+    color: white;
+}
+
+#contactUs h2 {
+    color: white;
+}
+
+#contactUs form {
+    margin-top: 30px;
+}
+
+#contactUs form input,
+#contactUs form textarea {
+    background: transparent;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: white;
+    float: left;
+    display: inline;
+}
+
+#contactUs form textarea {
+    height: 150px;
+}
+
+#contactUs form label {
+    float: left;
+    display: inline;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0;
+}
+
+#contactUs form .check {
+    padding: 0;
+    margin: 0;
+    float: left;
+    display: inline;
+}
+
+#contactUs form .check input {
+    width: 10px;
+    margin-top: 6px;
+    margin-right: 10px;
+    transform: scale(1.5);
+}
+
+#contactUs form button {
+    float: right;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 5px 30px;
+    font-size: 15px;
+    color: white;
+}
+
+/*Stay with us end*/
+
+/*footer part start*/
+
+#Footer {
+    padding: 10px 0px;
+}
+
+#Footer p {
+    font-size: 14px;
+}
+
+#Footer ul {
+    float: right;
+}
+
+#Footer ul li {
+    float: left;
+    margin-left: 10px;
+}
+
+#Footer ul li a {
+    display: inline-block;
+    background: #15a4fa;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+}
+
+
+#Footer ul li a i {
+    line-height: 25px;
+    color: white;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+/*footer part end*/
